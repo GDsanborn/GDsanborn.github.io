@@ -126,6 +126,12 @@
     z-index: 2;
     position: relative;
 }
+.breadcrumb-hostio-pbis {
+    background: url('../../images/map.gif') center center no-repeat;
+    background-size: cover;
+    z-index: 2;
+    position: relative;
+}
 .breadcrumb-hostio:after {
     position: absolute;
     left: 0;
