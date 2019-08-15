@@ -4764,7 +4764,9 @@ footer .footer-bottom ul li:first-child {
 }
 
 .home-hostio header .nav-header .eco_nav nav .navbar-nav li .active {
-  color: #1e90ff;
+    color: #1e90ff;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .home-hostio header .nav-header .eco_nav nav .sign-in-option .navbar-nav li a {
