@@ -127,12 +127,12 @@
     position: relative;
 }
 .breadcrumb-hostio-pbis {
-    background: url('../../images/data.png') center center no-repeat;
+    background: url('../../images/map.gif') center center no-repeat;
     background-size: cover;
     z-index: 2;
     position: relative;
 }
-.breadcrumb-hostio:after {
+.breadcrumb-hostio:after,.breadcrumb-hostio-pbis:after {
     position: absolute;
     left: 0;
     top: 0;
@@ -143,27 +143,29 @@
     z-index: -1;
     opacity: .5;
 }
-.breadcrumb-hostio .breadcrumb-content {
+
+.breadcrumb-hostio .breadcrumb-content,.breadcrumb-hostio-pbis .breadcrumb-content {
     padding: 107px 0 106px;
     text-align: center;
 }
-.breadcrumb-hostio .breadcrumb-content h2 {
+
+.breadcrumb-hostio .breadcrumb-content h2,.breadcrumb-hostio-pbis .breadcrumb-content h2 {
     color: #fff;
     font-size: 60px;
 }
-.breadcrumb-hostio .breadcrumb-content ul {
+.breadcrumb-hostio .breadcrumb-content ul,.breadcrumb-hostio-pbis .breadcrumb-content ul {
     display: inline-block;
 }
-.breadcrumb-hostio .breadcrumb-content ul li {
+.breadcrumb-hostio .breadcrumb-content ul li,.breadcrumb-hostio-pbis .breadcrumb-content ul li {
     color: #fff;    
     float: left;
     display: flex;
     margin-right: 10px;
 }
-.breadcrumb-hostio .breadcrumb-content ul li a {
+.breadcrumb-hostio .breadcrumb-content ul li a,.breadcrumb-hostio-pbis .breadcrumb-content ul li a {
     color: #fff;
 }
-.breadcrumb-hostio .breadcrumb-content ul li a i {
+.breadcrumb-hostio .breadcrumb-content ul li a i,.breadcrumb-hostio-pbis .breadcrumb-content ul li a i {
     margin-left: 10px;
 }
 
