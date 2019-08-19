@@ -2144,7 +2144,7 @@ header .eco_nav nav .navbar-logo h2 {
 }
 
 header .eco_nav nav .navbar-logo img {
-  height: 55px;
+  height: 34px;
 }
 
 header .eco_nav nav .navbar-nav .nav-menu i,
